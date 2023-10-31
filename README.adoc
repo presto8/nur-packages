@@ -1,0 +1,16 @@
+= presto's NUR packages
+
+My personal https://github.com/nix-community/NUR[NUR] repository
+
+== pscripts
+
+pscripts is a collection of helpful scripts.
+
+[cols="1,1"]
+|===
+|pdrives
+|Helps manage storage devices
+
+|pnix
+|Wrapper script for NixOS operations.
+|===
