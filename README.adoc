@@ -8,9 +8,9 @@ pscripts is a collection of helpful scripts.
 
 [cols="1,1"]
 |===
-|pdrives
+|https://github.com/presto8/pscripts/tree/main/pdrives[pdrives]
 |Helps manage storage devices
 
-|pnix
+|https://github.com/presto8/pscripts/tree/main/pnix[pnix]
 |Wrapper script for NixOS operations.
 |===
