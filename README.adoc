@@ -1,5 +1,7 @@
 = presto's NUR packages
 
+My personal https://github.com/nix-community/NUR[NUR] repository
+
 == pscripts
 
 pscripts is a collection of helpful scripts.
