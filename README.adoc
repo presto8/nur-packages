@@ -1,0 +1,14 @@
+= presto's NUR packages
+
+== pscripts
+
+pscripts is a collection of helpful scripts.
+
+[cols="1,1"]
+|===
+|pdrives
+|Helps manage storage devices
+
+|pnix
+|Wrapper script for NixOS operations.
+|===
