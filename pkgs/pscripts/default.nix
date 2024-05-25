@@ -20,7 +20,8 @@ stdenv.mkDerivation(finalAttrs: {
   installPhase = ''
     runHook preInstall
 
-    for exe in lastf pdrives pfs phash pmove pnix psg; do
+    mapfile -d $'\0' matches < <(find -maxdepth 1 -mindepth 1 -type d -printf "%f\0")
+    for exe in "$${matches[@]}"; do
       install -D -m 755 "$exe"/"$exe" $out/bin/"$exe"
     done
 
