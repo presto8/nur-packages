@@ -21,7 +21,7 @@ stdenv.mkDerivation(finalAttrs: {
     runHook preInstall
 
     mapfile -d $'\0' matches < <(find -maxdepth 1 -mindepth 1 -type d -printf "%f\0")
-    for exe in "$${matches[@]}"; do
+    for exe in "''${matches[@]}"; do
       install -D -m 755 "$exe"/"$exe" $out/bin/"$exe"
     done
 
