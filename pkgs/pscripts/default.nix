@@ -5,7 +5,7 @@
 
 stdenv.mkDerivation(finalAttrs: rec {
   pname = "pscripts";
-  version = "2024-10-29";
+  version = "2024-11-23";
 
   src = fetchFromGitHub {
     owner = "presto8";
